@@ -16,7 +16,7 @@ public class TestGlobalTimeOut {
     @Test
     public void testSleepForTooLong() throws Exception {
         log += "ran1";
-        Thread.sleep(100_000); // sleep for 100 seconds
+        Thread.sleep(10); // sleep for 100 seconds
     }
 
     @Test
