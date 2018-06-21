@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
-
+@ignore
 public class TestGlobalTimeOut {
     public static String log;
     private final CountDownLatch latch = new CountDownLatch(1);
