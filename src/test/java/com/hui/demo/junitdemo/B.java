@@ -7,7 +7,7 @@ import org.junit.Test;
 public class B {
 	@Test
 	public void testB() {
-		System.out.println("B running");
+		System.out.println("B is running");
 		assertEquals("B","B");
 	}
 }
